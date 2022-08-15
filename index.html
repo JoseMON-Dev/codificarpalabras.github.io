@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>encriptador</title>
+</head>
+<body>
+    <header>
+        
+        <img src="logo.png">
+    
+        
+    </header>
+    <main>
+        <ul>
+           <li> 
+                <form id="formulario1" class="formulario1" >
+                    <label for="ingreso"><p id="texto">ingrese el texto aqui &#9759</p></label>
+                    <textarea  id="ingreso" name="mensaje"></textarea>
+                        
+                    <div class="botones">
+                        <p id="atento">&#33 apenas letras minusculas y sin acento</p>
+                        <button class="cod" id="codificar">codificar</button>
+                        <button class="dec">decodificar</button>
+                    </div>
+                
+            
+                </form>
+            </li>
+        
+            <li class="li2">
+                <form  id="form2" class="form2">
+                    
+                    <p id="resultado" class="resultado"> <textarea name="result" id="result"></textarea><button class="copiar" id="copiar">copiar</button></p>
+                    
+                </form>
+            </li>
+        </ul>
+        <script src="codificar.js"></script>
+    </main>
+    <footer>
+
+    </footer>
+  
+</body>
+</html>
